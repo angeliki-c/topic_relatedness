@@ -1,4 +1,4 @@
-## topic_relatedness
+## Topic Relatedness
 
 ### Discover and Exploit Topic Relatedness
 
@@ -18,7 +18,7 @@ Techniques followed
 	the strength each concept has at the semantics level, and one the terms' space in respect with the
 	concept space.
 	
-  There are multiple ways with which that task could be tackled. Another approach includes constructing
+	There are multiple ways with which that task could be tackled. Another approach includes constructing
 	the Vector Similarity Model (vsm) for the corpus, by creating the cooccurance matrix and then applying
 	the tfidf scheme or an alternative one, such as ppmi or word2vec on the cooccurance matrix and 
 	subsequently, instead of using lsa, another dimensionality reduction technique might be used such as 
