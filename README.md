@@ -6,7 +6,7 @@
  
 Techniques followed
  
-	Often, it is required in some applications to finding text content/articles that relate to a specific
+	Often, it is required in some applications to find text content/articles that relate to a specific
 	concept or topic, where using just standard search indexes has poor performance, as it is not feasible 
 	all the words pertained to a topic to be included in a search index. Methods for retrieving documents 
 	based on semantics, independent of whether specific keywords appear in the documents, exhibit better
