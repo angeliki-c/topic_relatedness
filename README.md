@@ -54,8 +54,8 @@ Baseline
 	
 	It is interesting to set off a study that involves the comparison between the technique followed here,
 	with other competent approaches, including using a baseline technique and baseline datasets. Though,
-  this analysis doesn't aim to be exhaustive at the moment and a more thorough investigation is planned
-  for the future.
+	this analysis doesn't aim to be exhaustive at the moment and a more thorough investigation is planned
+	for the future.
 
 	
 
@@ -74,8 +74,8 @@ Challenges
 	clues from the semantics each term most often adopts in text. Spark's ability to process an immense volume
 	of text data efficiently, gives the opportunity for a variety of applications to emerge, taking advantage
 	of the abudant text data, available in various kinds of forms.
-
-  LSA doesn't take the order between words into account, neither negation of words.	
+	
+	LSA doesn't take the order between words into account, neither negation of words.	
 	
 	The low-rank approximation of the document-term matrix contributes to an efficient representation of the data,
 	saving resources, and accounts for challenges, such as synonymy between words, polysemy and noise in the data. 
@@ -86,25 +86,25 @@ Challenges
 	- Which are the 100 most important concepts based on the corpus? Show me the first 200 terms that represent them.
 	- Which are the 100 most important concepts based on the corpus? Show me the titles from the first 50 documents 
 	  that represent them.
-  - What similarity score do two specific terms from the vocabulary have?
-    
-  If we really want to extract the most value out of our text data, we should not constrain our exploration only in 
+	- What similarity score do two specific terms from the vocabulary have?
+	
+	If we really want to extract the most value out of our text data, we should not constrain our exploration only in 
 	looking up only the most similar components in our corpus, but invastigating the least connected entities, too or 
 	entities belonging in specific percentiles of similarity score in our corpus. Also, submitting queries, using other
 	metric functions (distance functions or others), might highlight information quite useful for our research.
-
-    It is interesting to notice that in the results returned, after submitting the first query above, we see terms such
-	  as: 
-	  - 'lymphoma', which as other diseases its rate and symptoms are studied at a geographic level [4] and there are 
-	    research reports claiming the connection of this disease with environmental factors, such as pollution [5]
-      - 'hypertension', 'multimorbidity', 'cancer', 'mutation', 'drought', 'radiation' 	   
-	  - exposome, which based on CDC "can be defined as the measure of all the exposures of an individual in a lifetime
-    	and how those exposures relate to health" [6]
-      - 'tccon', which stands for TCCON - Total Carbon Column Observing Network' 
-	  - 'electric', which might be connected with the connection atmospheric electricity seems to have with biologic 
-	     function [7]
-    - 'noaa', which stands for National Oceanic and Atmospheric Administration. NOAA in a recent report states
-   	   "Drought can harm food production and human health. Flooding can lead to disease spread and damages to ecosystems 
+	
+	It is interesting to notice that in the results returned, after submitting the first query above, we see terms such
+	as: 
+	- 'lymphoma', which as other diseases its rate and symptoms are studied at a geographic level [4] and there are 
+	   research reports claiming the connection of this disease with environmental factors, such as pollution [5]
+	- 'hypertension', 'multimorbidity', 'cancer', 'mutation', 'drought', 'radiation'    
+	- exposome, which based on CDC "can be defined as the measure of all the exposures of an individual in a lifetime     
+	  and how those exposures relate to health" [6]   
+	- 'tccon', which stands for TCCON - Total Carbon Column Observing Network'    
+	- 'electric', which might be connected with the connection atmospheric electricity seems to have with biologic   
+	   function [7]
+        - 'noaa', which stands for National Oceanic and Atmospheric Administration. NOAA in a recent report states      
+	   "Drought can harm food production and human health. Flooding can lead to disease spread and damages to ecosystems 
 		   and infrastructure" [8]
 	  - 'nbsp', 'ndash', 'valign', though terms like these show that there is some noise in the documents, which comes from
 	     html and css language components, not interpreted by the browser, which appear on web pages of wikipedia.
