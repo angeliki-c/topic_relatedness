@@ -91,23 +91,23 @@ Challenges
 	  that represent them.
 	- What similarity score do two specific terms from the vocabulary have?
 	
-	If we really want to extract the most value out of our text data, we should not constrain our exploration only
-	in looking up only the most similar components in our corpus, but invastigating the least connected entities, 
-	too or entities belonging in specific percentiles of similarity score in our corpus. Also, submitting queries,
-	using other metric functions (distance functions or others), might highlight information quite useful for our
-	research.
+	If we really want to extract the most value out of our text data, we should not constrain our exploration
+	only in looking up only the most similar components in our corpus, but invastigating the least connected
+	entities, too or entities belonging in specific percentiles of similarity score in our corpus. Also, submit-
+	ting queries, using other metric functions (distance functions or others), might highlight information quite
+	useful for our research.
 	
-	It is interesting to notice that in the results returned, after submitting the first query above, we see terms
-	such as: 
+	It is interesting to notice that in the results returned, after submitting the first query above, we see 
+	terms, such as: 
 	- 'lymphoma', which as other diseases its rate and symptoms are studied at a geographic level [4] and there 
-	   are research reports claiming the connection of this disease with environmental factors, such as pollution
-	   [5]
+	   are research reports claiming the connection of this disease with environmental factors, such as 
+	   pollution [5]
 	- 'hypertension', 'multimorbidity', 'cancer', 'mutation', 'drought', 'radiation'    
 	- exposome, which based on CDC "can be defined as the measure of all the exposures of an individual in a 
 	  lifetime and how those exposures relate to health" [6]   
 	- 'tccon', which stands for TCCON - Total Carbon Column Observing Network'    
-	- 'electric', which might be connected with the connection atmospheric electricity seems to have with biologic   
-	   function [7]    
+	- 'electric', which might be connected with the connection atmospheric electricity seems to have with
+	   biologic function [7]    
 	- 'noaa', which stands for National Oceanic and Atmospheric Administration. NOAA in a recent report states      
 	   "Drought can harm food production and human health. Flooding can lead to disease spread and damages to 
 	   ecosystems and infrastructure" [8]    
@@ -116,11 +116,11 @@ Challenges
 	   wikipedia.    
 	- also we identify terms that indicate possibly some existing bias in some texts in the corpus    
 	- a document with title 'Dysosteosclerosis' is among the articles related to the first 100 most important     
-	  concepts, which refers to a rare disease of the bones. It is interesting that there are recent medical reports   
-	  that suggest air pollution's impact on bones' health [9]    
+	  concepts, which refers to a rare disease of the bones. It is interesting that there are recent medical 
+	  reports that suggest air pollution's impact on bones' health [9]    
 		
-	These are only some of the observations one might extract out of the investigation on the topic relatedness in this 
-	corpus, using lsa, that might prove useful in various research directions.
+	These are only some of the observations one might extract out of the investigation on the topic relatedness
+	in this corpus, using lsa, that might prove useful in various research directions.
 	
 		
 
@@ -133,21 +133,23 @@ Evaluation
  
 Code
 
-    topic_relatedness_with_lsa.py
+    	topic_relatedness_with_lsa.py
    
-    stemmer.py
+    	stemmer.py
        
 	queries.py   
 	
 	utils.py
 	   
-   All can be run interactively with pyspark shell or by submitting e.g. exec(open("project/location/topic_relatedness/topic_relatedness_with_lsa.py").read()) 
-   for an all at once execution. The code has been tested on a Spark standalone cluster. For the Spark setting,
-   spark-3.1.2-bin-hadoop2.7 bundle has been used.
-   The external python packages that are used in this implementation exist in the requirements.txt file. Install with: 
-	   pip install -r project/location/topic_relatedness/requirements.txt
-   This use case is inspired from the series of experiments presented in [3], though it deviates from it, in the
-   programming language, the setting used and in the analysis followed.
+   	All can be run interactively with pyspark shell or by submitting    
+   		e.g. exec(open("project/location/topic_relatedness/topic_relatedness_with_lsa.py").read()) 
+   	for an all at once execution. The code has been tested on a Spark standalone cluster. For the Spark 
+	setting, spark-3.1.2-bin-hadoop2.7 bundle has been used.   
+   	The external python packages that are used in this implementation exist in the requirements.txt file. 
+   	Install with:     
+	   	pip install -r project/location/topic_relatedness/requirements.txt   
+   	This use case is inspired from the series of experiments presented in [3], though it deviates from it, in the
+   	programming language, the setting used and in the analysis followed.   
 
    
 
@@ -155,10 +157,10 @@ References
 
 	1. https://scikit-learn.org/stable/modules/decomposition.html#lsa
 	2. https://en.wikipedia.org/wiki/Special:Export
-  3. Advanced Analytics with Spark, Sandy Ryza, Uri Laserson, Sean Owen, & Josh Wills
-  4. https://pubmed.ncbi.nlm.nih.gov/13874903/
-  5. https://www.liebertpub.com/doi/10.1089/ees.2019.0241
-  6. https://www.cdc.gov/niosh/topics/exposome/default.html#:~:text=The%20exposome%20can%20be%20defined,%2C%20diet%2C%20lifestyle%2C%20etc.
-  7. https://link.springer.com/article/10.1007/s00484-020-02054-0
+  	3. Advanced Analytics with Spark, Sandy Ryza, Uri Laserson, Sean Owen, & Josh Wills
+  	4. https://pubmed.ncbi.nlm.nih.gov/13874903/
+  	5. https://www.liebertpub.com/doi/10.1089/ees.2019.0241
+  	6. https://www.cdc.gov/niosh/topics/exposome/default.html#:~:text=The%20exposome%20can%20be%20defined,%2C%20diet%2C%20lifestyle%2C%20etc.
+  	7. https://link.springer.com/article/10.1007/s00484-020-02054-0
 	8. https://www.noaa.gov/education/resource-collections/climate/climate-change-impacts
 	9. https://www.sciencedaily.com/releases/2020/01/200103111726.htm
