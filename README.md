@@ -133,7 +133,7 @@ Evaluation
  
 Code
 
-        topic_relatedness_with_lsa.py
+	topic_relatedness_with_lsa.py
 	
 	stemmer.py
        
@@ -148,8 +148,8 @@ Code
    	The external python packages that are used in this implementation exist in the requirements.txt file. 
    	Install with:     
 	   	pip install -r project/location/topic_relatedness/requirements.txt   
-   	This use case is inspired from the series of experiments presented in [3], though it deviates from it, in the
-   	programming language, the setting used and in the analysis followed.   
+   	This use case is inspired from the series of experiments presented in [3], though it deviates from it, 
+	in the programming language, the setting used and in the analysis followed.   
 
    
 
