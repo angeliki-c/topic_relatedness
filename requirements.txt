@@ -1,0 +1,7 @@
+numpy
+pandas
+sklearn
+mlflow
+hyperopt
+matplotlib.pyplot
+nltk
