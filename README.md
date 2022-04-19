@@ -32,14 +32,14 @@ Data set
 	categories:  atmospheric_sciences, diseases_and_disorders, geography, chemistry, biology and 
 	physics. The documents were downloaded from Wikipedia's Export web site [2]. In this analysis, we
 	are going to investigate semantic relatedness between articles specifically under the categories
-    'atmospheric_sciences', 'diseases_and_disorders' and 'geography'. Of course we may try another 
+	'atmospheric_sciences', 'diseases_and_disorders' and 'geography'. Of course we may try another 
 	combination of categories to experiment with. In general, we may design any study or set of studies, 
-  appropriately, on topic relatedness, involving different sets of articles and categories and try to
+	appropriately, on topic relatedness, involving different sets of articles and categories and try to
 	answer intricate questions, such as is there any bias in the documents, which categories of articles
 	tend to contain bias or is there any subtle connection between two concepts we don't know about yet,
 	but the text written about each one higlights possible directions of connection between them? 
-
-  Often, in clinical data there is an incremental number of cases reported for a particular type of 
+	
+	Often, in clinical data there is an incremental number of cases reported for a particular type of 
 	disease, connected with a specific geographical region, whereas in other regions the cases of that
 	disease might be very low in number or absent. In addition atmospheric conditions increasingly seem
 	to play role in human's health condition, therefore the emergence of some diseases may be connected 
