@@ -87,8 +87,8 @@ Challenges
 	case study:
 	- Which are the 100 most important concepts based on the corpus? Show me the first 200 terms that represent 
 	  them.
-	- Which are the 100 most important concepts based on the corpus? Show me the titles from the first 50 documents 
-	  that represent them.
+	- Which are the 100 most important concepts based on the corpus? Show me the titles from the first 50 
+	  documents that represent them.
 	- What similarity score do two specific terms from the vocabulary have?
 	
 	If we really want to extract the most value out of our text data, we should not constrain our exploration
@@ -133,9 +133,9 @@ Evaluation
  
 Code
 
-    	topic_relatedness_with_lsa.py
-   
-    	stemmer.py
+        topic_relatedness_with_lsa.py
+	
+	stemmer.py
        
 	queries.py   
 	
